@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #2c3e50, #4b79a1); /* Темный градиентный фон */
+    color: #e0e0e0; /* Светлый текст */
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444; /* Темный фон кнопки */
+    color: #e0e0e0; /* Светлый текст */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #555; /* Светлее при наведении */
+    color: #ffffff;
+}

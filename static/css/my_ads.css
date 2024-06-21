@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #2c3e50, #4b79a1); /* Темный градиентный фон */
+    color: #e0e0e0; /* Светлый текст */
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444; /* Темный фон кнопки */
+    color: #e0e0e0; /* Светлый текст */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #555; /* Светлее при наведении */
+    color: #ffffff;
+}
+
+.ad-container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: #e0e0e0; /* Светлый текст */
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #333; /* Темный фон карточки */
+    color: #e0e0e0; /* Светлый текст */
+    width: auto;
+    min-width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Темная тень */
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #e0e0e0; /* Светлый текст */
+}
+
+.card p {
+    margin: 10px 0;
+    color: #cccccc; /* Светлый текст для параграфа */
+}

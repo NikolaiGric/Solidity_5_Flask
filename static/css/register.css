@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #2c3e50, #4b79a1); /* Темный градиентный фон */
+    color: #e0e0e0; /* Светлый текст */
+}
+
+.error-message {
+    margin-top: 20px;
+    color: #e0e0e0; /* Светлый текст */
+    background-color: rgba(255, 0, 0, 0.8); /* Красный фон */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.register-container {
+    background: rgba(48, 48, 48, 0.9); /* Темный фон контейнера */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Более темная тень */
+    color: #e0e0e0; /* Светлый текст */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Светлый текст */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e0e0e0; /* Светлый текст */
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555; /* Темный бордер */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #333; /* Темный фон */
+    color: #e0e0e0; /* Светлый текст */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4facfe; /* Светлый фон кнопки */
+    color: #1e1e1e; /* Темный текст */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #00aaff; /* Светлее при наведении */
+    color: #ffffff; /* Светлый текст при наведении */
+}

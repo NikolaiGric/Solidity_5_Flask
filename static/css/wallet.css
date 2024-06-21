@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #2c3e50, #4b79a1); /* Темный градиентный фон */
+    color: #e0e0e0; /* Светлый текст */
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444; /* Темный фон кнопки */
+    color: #e0e0e0; /* Светлый текст */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #555; /* Светлее при наведении */
+    color: #ffffff;
+}
+
+.wallet-container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: #e0e0e0; /* Светлый текст */
+}
+
+.balance {
+    margin-bottom: 20px;
+    color: #cccccc; /* Светлый текст для баланса */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.input-field, .button {
+    width: 300px; /* одинаковая ширина для полей и кнопок */
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.input-field {
+    border: 1px solid #555; /* Темный бордер */
+    background-color: #333; /* Темный фон */
+    color: #e0e0e0; /* Светлый текст */
+    margin-bottom: 10px;
+}
+
+.button {
+    border: none;
+    background-color: #555; /* Темный фон кнопки */
+    color: #e0e0e0; /* Светлый текст */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #666; /* Светлее при наведении */
+    color: #ffffff;
+}

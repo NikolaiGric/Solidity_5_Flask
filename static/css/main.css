@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #1e1e1e; /* Темный фон */
+    color: #e0e0e0; /* Светлый текст */
+}
+
+.header {
+    background: linear-gradient(to right, #333, #555); /* Темные оттенки */
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px; /* Разделение между элементами */
+}
+
+.balance {
+    color: #e0e0e0;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #ffffff; /* Белый текст */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff; /* Синий фон */
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #0056b3; /* Темно-синий фон при наведении */
+}
+
+.public-key-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.public-key-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #333; /* Темный фон */
+    color: #e0e0e0; /* Светлый текст */
+}
+
+.logout-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Зеленый фон */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #218838; /* Темно-зеленый фон при наведении */
+}
+
+.main-content {
+    padding: 20px 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #2b2b2b; /* Темный фон */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+}
+
+.card-content p {
+    margin: 10px 0 0;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #007bff; /* Синий текст */
+}
+
+.button-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение кнопок */
+    gap: 10px; /* Разделение между кнопками */
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button {
+    background-color: #17a2b8; /* Голубой фон */
+}
+
+.buy-button:hover {
+    background-color: #138496; /* Темно-голубой фон при наведении */
+}
+
+.edit-button {
+    background-color: #ffc107; /* Желтый фон */
+}
+
+.edit-button:hover {
+    background-color: #e0a800; /* Темно-желтый фон при наведении */
+}
+
+.edit-button-ad {
+    background-color: #6610f2; /* Фиолетовый фон */
+}
+
+.edit-button-ad:hover {
+    background-color: #520dc2; /* Темно-фиолетовый фон при наведении */
+}
+
+.delete-button {
+    background-color: #dc3545; /* Красный фон */
+}
+
+.delete-button:hover {
+    background-color: #bd2130; /* Темно-красный фон при наведении */
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px; /* Разделение между ссылками */
+}
+
+.nav-link {
+    color: #ffffff; /* Белый текст */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff; /* Синий фон */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: auto; /* Изменено на auto */
+}
+
+.nav-link,
+.logout-button {
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-link {
+    min-width: 200px; /* Вы можете изменить эту ширину по вашему усмотрению */
+}
+
+.balance {
+    color: #e0e0e0;
+    margin-right: 10px;
+}
+
+.public-key-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: #ffffff; /* Белый текст */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff; /* Синий фон */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: auto;
+    height: 100%; /* Устанавливаем высоту кнопок равной 100% */
+    display: flex; /* Используем flex для выравнивания текста по вертикали */
+    align-items: center; /* Выравниваем текст по вертикали */
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff; /* Синий фон */
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+    
